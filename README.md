@@ -1,7 +1,7 @@
 # value-ptr lite
 A C++ smart-pointer with value semantics for C++98, C++11 and later
 
-[![Language](https://img.shields.io/badge/language-C++-blue.svg)](https://isocpp.org/) [![Standard](https://img.shields.io/badge/c%2B%2B-98/11/14/17-blue.svg)](https://en.wikipedia.org/wiki/C%2B%2B#Standardization) [![License](https://img.shields.io/badge/license-BSL-blue.svg)](https://opensource.org/licenses/BSL-1.0) [![Build Status](https://travis-ci.org/martinmoene/value-ptr-lite.svg?branch=master)](https://travis-ci.org/martinmoene/value-ptr-lite) [![Build status](https://ci.appveyor.com/api/projects/status/w2dgn3fxyrd6vcq8?svg=true)](https://ci.appveyor.com/project/martinmoene/value-ptr-lite) [![Version](https://badge.fury.io/gh/martinmoene%2Fvalue-ptr-lite.svg)](https://github.com/martinmoene/value-ptr-lite/releases) [![download](https://img.shields.io/badge/latest%20version%20%20-download-blue.svg)](https://raw.githubusercontent.com/martinmoene/value-ptr-lite/master/include/nonstd/value_ptr.hpp)
+[![Language](https://img.shields.io/badge/language-C++-blue.svg)](https://isocpp.org/) [![Standard](https://img.shields.io/badge/c%2B%2B-98/11/14/17-blue.svg)](https://en.wikipedia.org/wiki/C%2B%2B#Standardization) [![License](https://img.shields.io/badge/license-BSL-blue.svg)](https://opensource.org/licenses/BSL-1.0) [![Build Status](https://travis-ci.org/martinmoene/value-ptr-lite.svg?branch=master)](https://travis-ci.org/martinmoene/value-ptr-lite) [![Build status](https://ci.appveyor.com/api/projects/status/w2dgn3fxyrd6vcq8?svg=true)](https://ci.appveyor.com/project/martinmoene/value-ptr-lite) [![Version](https://badge.fury.io/gh/martinmoene%2Fvalue-ptr-lite.svg)](https://github.com/martinmoene/value-ptr-lite/releases) [![download](https://img.shields.io/badge/latest%20version%20%20-download-blue.svg)](https://raw.githubusercontent.com/martinmoene/value-ptr-lite/master/include/nonstd/value_ptr.hpp) [![Conan](https://img.shields.io/badge/conan-download-blue.svg)](https://bintray.com/martinmoene/nonstd-lite/value-ptr-lite%3Anonstd-lite/_latestVersion)
 
 
 **Contents**
@@ -234,8 +234,8 @@ Here we use `value-ptr-lite/build`.
         value-ptr-lite/build> cmake -G "Unix Makefiles" [see 3. below] ..
 
 3. Optional. You can control above configuration through the following options:
-   - `-DVALUE_PTR_LITE_BUILD_TEST=ON`: build the tests for lest, default on
-   - `-DVALUE_PTR_LITE_BUILD_EXAMPLE=ON`: build the examples, default on
+   - `-DVALUE_PTR_LITE_BUILD_TEST=ON`: build the tests for lest, default off
+   - `-DVALUE_PTR_LITE_BUILD_EXAMPLE=ON`: build the examples, default off
    - `-DVALUE_PTR_LITE_COLOURISE_TEST=ON`: use colour for pass, fail, default off
 
 4. Build the test suite. With Visual Studio, append the configuration as `--config Debug` or `--config Release`.
